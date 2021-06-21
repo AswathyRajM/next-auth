@@ -12,7 +12,7 @@ app.use(
 );
 
 const db = require("./app/models");
-db.sequelize.sync();
+db.sequelize.sync({ force: true });
 
 app.get("/", (request, response) => {
   response.json({ info: "Node.js, Express, and Postgres API" });

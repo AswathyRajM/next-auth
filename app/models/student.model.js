@@ -9,7 +9,6 @@ module.exports = (sequelize, Sequelize) => {
     },
     passed: {
       type: Sequelize.BOOLEAN,
-      defaultValue: false,
     },
   });
 
