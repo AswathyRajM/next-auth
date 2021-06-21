@@ -1,13 +1,15 @@
 module.exports = (sequelize, Sequelize) => {
-  const Student = sequelize.define("student", {
+  const Student = sequelize.define("Student", {
     id: {
       type: Sequelize.STRING,
+      primaryKey: true,
     },
     name: {
       type: Sequelize.STRING,
     },
-    marks: {
-      type: Sequelize.INTEGER,
+    passed: {
+      type: Sequelize.BOOLEAN,
+      defaultValue: false,
     },
   });
 
