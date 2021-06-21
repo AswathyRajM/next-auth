@@ -18,6 +18,8 @@ app.get("/", (request, response) => {
   response.json({ info: "Node.js, Express, and Postgres API" });
 });
 
+require("./app/routes/student.routes")(app);
+
 app.listen(port, () => {
   console.log(`App running on port ${port}.`);
 });
