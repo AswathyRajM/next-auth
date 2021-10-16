@@ -1,3 +1,3 @@
-# Express app using PGSQL and Sequelize 
-## CRUD Operation on student data
+# Express app using PGSQL and Sequelize REST API
+## CRUD Operation on student data 
 
