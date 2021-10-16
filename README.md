@@ -1,2 +1,2 @@
-# next-auth
+# Express app using PGSQL and Sequelize 
 
